@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de descuento!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pagina para calcular descuentos en articulos</h1>
+
+    <form action="#" id="form-container">
+      <label for="precio">Precio</label>
+      <input
+        type="text"
+        name="precio"
+        id="precio"
+        placeholder="Escribe el precio del artículo"
+      />
+      <label for="descuento">Descuento</label>
+      <input
+        type="text"
+        name="descuento"
+        id="descuento"
+        placeholder="Escribe el porcentaje en decimal"
+      />
+      <button type="submit" id="btn-calcular">Calcular</button>
+    </form>
+
+    <div>
+      <h1 id="resultado"></h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
